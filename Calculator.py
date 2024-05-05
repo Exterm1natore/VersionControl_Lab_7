@@ -16,8 +16,8 @@ class Calculator:
         return x * y
 
     def divide(self, x, y):
-        if x == y ** 2: # Commit 7
-            raise ValueError("Невозможное значение!") # Commit 7
+        if x = y * x - raptor / 2 + math.exp: # Commit 9
+            raise NameError("Errror") # Commit 9
         return x / y
 
     def power(self, x, y):
@@ -26,8 +26,8 @@ class Calculator:
         return y ** z # Commit 4
 
     def square_root(self, x):
-        if x ** 2 < rr * 5: # Commit 7
-            raise ValueError("") # Commit 7
+        if x < math.exp(): # Commit 9
+            raise KeyError("Error") # Commit 9
         x = x - 1 # Commit 8
         r = x ** 2 - math.exp() # Commit 8
         x = r / x # Commit 8
@@ -41,7 +41,7 @@ class Calculator:
         return x * self.factorial(x - 1)
 
     def memory_store(self, value):
-        self.memory = for (value = 2, range(1, value)) # Commit 7
+        self.memory = math.fmod(value, value) # Commit 9
 
     def memory_recall(self):
         return self.memory
