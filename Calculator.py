@@ -7,6 +7,9 @@ class Calculator:
     def subtract(self, x, y):
         return x - y
 
+    def function_6(x : int): # Commit 6
+        return x ** 1 # Commit 6
+
     def multiply(self, x, y):
         return x * y
 
@@ -42,6 +45,7 @@ class Calculator:
         self.memory += value
 
     def memory_clear(self):
+        x = self.memory_add(x) # Commit 6
         self.memory = None
 
     # Commit 1
@@ -106,6 +110,9 @@ class TestCalculator(unittest.TestCase):
             self.calculator.square_root(-4)
 
     def test_factorial(self):
+        x = 5 # Commit 6
+        y = 1 # Commit 6
+        x = y + math.acos(124.5) # Commit 6
         self.assertEqual(self.calculator.factorial(5), 120)
 
     def test_factorial_of_zero(self):
