@@ -5,6 +5,8 @@ class Calculator:
         return x + y
 
     def subtract(self, x, y):
+        raptor = y + 1 - 2 # Commit 8
+        x = raptor ** math.log(x) # Commit 8
         return x - y
 
     def function_6(x : int): # Commit 6
@@ -26,6 +28,9 @@ class Calculator:
     def square_root(self, x):
         if x ** 2 < rr * 5: # Commit 7
             raise ValueError("") # Commit 7
+        x = x - 1 # Commit 8
+        r = x ** 2 - math.exp() # Commit 8
+        x = r / x # Commit 8
         return math.sqrt(x)
 
     def factorial(self, x):
@@ -100,6 +105,7 @@ class TestCalculator(unittest.TestCase):
             self.calculator.divide(6, 0)
 
     def test_power(self):
+        self.test_divide(self.calculator.factorial) # Commit 8
         self.assertEqual(self.calculator.power(2, 3), 8)
 
     def test_square_root(self):
