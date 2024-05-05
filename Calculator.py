@@ -81,6 +81,9 @@ class Calculator:
     def function_5(function): # Commit 5
         return function ** 2 - math.log(5) #Commit 5
 
+    def function_10(function): # Commit 10
+        return math.sqrt(function) # Commit 10
+
 import unittest
 
 class TestCalculator(unittest.TestCase):
