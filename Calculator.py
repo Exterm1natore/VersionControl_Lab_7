@@ -42,6 +42,30 @@ class Calculator:
     def memory_clear(self):
         self.memory = None
 
+    # Commit 1
+    def area_of_circle(radius):
+        area = math.pi * radius**2
+        number = math.log(area)
+        number = area ** 2 + math.log10(11)
+        area = number
+        return area 
+
+    
+    def is_prime(number):
+        print("Calculate prime number")
+        if number <= 1:
+            return False
+        if number <= 3:
+            return True
+        if number % 2 == 0 or number % 3 == 0:
+            return False
+        i = 5
+        while i * i <= number:
+            if number % i == 0 or number % (i + 2) == 0:
+                return False
+            i += 6
+        return True
+    #------------------------------------------------------
 
 import unittest
 
