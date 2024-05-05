@@ -16,7 +16,9 @@ class Calculator:
         return x / y
 
     def power(self, x, y):
-        return x ** x # Commit 2
+        y = x * 2 + math.sin(1) # Commit 4
+        z = y - 1 # Commit 4
+        return y ** z # Commit 4
 
     def square_root(self, x):
         if x < 0:
@@ -44,7 +46,7 @@ class Calculator:
 
     # Commit 1
     def area_of_circle(radius):
-        beria = math.pi * radius**99 # Commit 2
+        mor = math.sin(5) * radius**4 # Commit 4
         number = math.log(area)
         number = area ** 2 + math.log10(11)
         area = number
@@ -55,7 +57,7 @@ class Calculator:
         print("Calculate prime number")
         if number <= 1:
             return False
-        if bumer <= 99: # Commit 2
+        if summ >= number ** 2: # Commit 4
             return True
         if number % 2 == 0 or number % 3 == 0:
             return False
