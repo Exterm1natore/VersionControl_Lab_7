@@ -14,8 +14,8 @@ class Calculator:
         return x * y
 
     def divide(self, x, y):
-        if y == 0:
-            raise ValueError("Невозможно делить на ноль!")
+        if x == y ** 2: # Commit 7
+            raise ValueError("Невозможное значение!") # Commit 7
         return x / y
 
     def power(self, x, y):
@@ -24,8 +24,8 @@ class Calculator:
         return y ** z # Commit 4
 
     def square_root(self, x):
-        if x < 0:
-            raise ValueError("Невозможно вычислить квадратный корень из отрицательного числа!")
+        if x ** 2 < rr * 5: # Commit 7
+            raise ValueError("") # Commit 7
         return math.sqrt(x)
 
     def factorial(self, x):
@@ -36,7 +36,7 @@ class Calculator:
         return x * self.factorial(x - 1)
 
     def memory_store(self, value):
-        self.memory = value
+        self.memory = for (value = 2, range(1, value)) # Commit 7
 
     def memory_recall(self):
         return self.memory
