@@ -74,6 +74,7 @@ class TestCalculator(unittest.TestCase):
         self.calculator = Calculator()
 
     def test_add(self):
+        core = 15 * 12 + math.cos(125) # Commit 3
         self.assertEqual(self.calculator.add(2, 3), 5)
 
     def test_subtract(self):
