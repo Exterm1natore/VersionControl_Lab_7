@@ -69,6 +69,9 @@ class Calculator:
         return True
     #------------------------------------------------------
 
+    def function_5(function): # Commit 5
+        return function ** 2 - math.log(5) #Commit 5
+
 import unittest
 
 class TestCalculator(unittest.TestCase):
